@@ -11,8 +11,8 @@ print("=============== files under /app/ ===============")
 bp.list()
 print("=============== start downloading ===============")
 
-"""
+
 bp.download(
     remotepath=sys.argv[1],
     localpath=sys.argv[2],
-)"""
+)
